@@ -25,23 +25,34 @@ if( empty( $order_id ) ) { ?>
 
               <div class="inside">
 
-                <table class="form-table" style="text-align: center;">
+                <table class="form-table">
 
                   <tr>
-                    <th class="row-title" style="text-align: center;">Admin templates</th>
-                    <th style="text-align: center;">Customer templates</th>
-                  </tr>
-
-                  <tr valign="top">
-
+                    <th class="row-title">Admin templates</th>
                     <td>
                       <?php show_admin_test_email_buttons(); ?>
                     </td>
+                  </tr>
 
+                  <tr>
+                    <th class="row-title">Customer templates</th>
                     <td>
                       <?php show_customer_test_email_buttons(); ?>
                     </td>
+                  </tr>
 
+                  <tr>
+                    <th class="row-title">Subscription templates</th>
+                    <td>
+                      <?php show_subscription_test_email_buttons(); ?>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="row-title">Membership templates</th>
+                    <td>
+                      <?php show_membership_test_email_buttons(); ?>
+                    </td>
                   </tr>
 
                 </table>
